@@ -13,3 +13,5 @@ json = json.dumps(r.json())
 #cria um arquivo json com o conteudo da requisicao
 arquivo = open("answer.json", "w")
 arquivo.write(json)
+
+for i in arquivo:
